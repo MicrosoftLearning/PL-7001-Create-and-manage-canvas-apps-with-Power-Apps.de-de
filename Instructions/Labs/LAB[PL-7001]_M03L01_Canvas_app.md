@@ -32,7 +32,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
 1. Navigieren Sie zum Power Apps Maker-Portal <https://make.powerapps.com>.
 
-1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
+1. Vergewissern Sie sich, dass Sie sich in der Umgebung **Dev One** befinden.
 
 1. Wählen Sie im linken Menü die Registerkarte **+ Erstellen** aus.
 
@@ -70,7 +70,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
 1. Wählen Sie im Menü für die App-Erstellung **Strukturansicht** aus.
 
-1. Wählen Sie **Bildschirm1** in der Strukturansicht, die Auslassungspunkte (**…**) und dann **Umbenennen** aus.
+1. Wählen Sie **Screen1** in der Strukturansicht, die Auslassungspunkte (**…**) und dann **Umbenennen** aus.
 
 1. Geben Sie `MainScreen` ein.
 
@@ -84,11 +84,11 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
 1. Benennen Sie das Rechteck in `HeaderRect` um.
 
-1. Legen Sie die Eigenschaften des Rechtecks wie folgt fest:
+1. Legen Sie die Eigenschaften des Rechtecks in der Bearbeitungsleiste wie folgt fest:
 
-   1. X=`0`
+   1. X = `0`
    1. Y=`0`
-   1. Höhe=`80`
+   1. Höhe = `80`
    1. Breite=`Parent.Width`
 
 1. Wählen Sie im Menü für die App-Erstellung **Einfügen (+)** aus.
@@ -101,11 +101,11 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
 1. Benennen Sie die Beschriftung in `HeaderLabel` um.
 
-1. Legen Sie die Eigenschaften der Bezeichnung wie folgt fest:
+1. Legen Sie die Eigenschaften der Beschriftung in der Bearbeitungsleiste wie folgt fest:
 
-   1. X=`0`
+   1. X = `0`
    1. Y=`0`
-   1. Höhe=`80`
+   1. Höhe = `80`
    1. Breite=`Parent.Width`
    1. Ausrichtung=`Align.Center`
    1. Größe=`24`
@@ -124,7 +124,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
     ![Screenshot: Hinzufügen eines Katalogs.](../media/add-gallery.png)
 
-1. Wählen Sie **Buchungsanfragen** aus.
+1. Wählen Sie **Buchungsanfragen** für die Datenquelle aus.
 
     ![Screenshot: Katalogeigenschaften.](../media/gallery-properties.png)
 
@@ -146,11 +146,11 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
 1. Ändern Sie den Namen des Katalogs in `BookingRequestList`.
 
-1. Legen Sie die Eigenschaften des Katalogs wie folgt fest:
+1. Legen Sie die Eigenschaften des Katalogs in der Bearbeitungsleiste wie folgt fest:
 
-   1. X=`0`
-   1. Y=`80`
-   1. Höhe=`575`
+   1. X = `0`
+   1. Y = `80`
+   1. Höhe = `575`
    1. Breite=`250`
 
 ### Aufgabe 1.5 – Formatieren des Währungsfelds
@@ -163,12 +163,12 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
     ![Screenshot: ausgewähltes Textkörperfeld.](../media/body.png)
 
-1. Legen Sie die Eigenschaft **Text** auf diese Formel fest:
+1. Legen Sie die **Texteigenschaft** in der Bearbeitungsleiste auf die Formel fest:
 
     ```powerappsfl
     Text(Value(ThisItem.Cost), "$#,##0.00")
     ```
 
-1. Wählen Sie oben rechts in Power Apps Studio **Speichern** aus.
+1. Wählen Sie oben rechts in Power Apps Studio die Option **Speichern** aus.
 
-1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu verlassen.
+1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.

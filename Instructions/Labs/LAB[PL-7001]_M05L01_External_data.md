@@ -33,9 +33,11 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 ### Aufgabe 1.1 Erstellen einer SharePoint-Website
 
-1. Wählen Sie im [Power Apps Maker-Portal](https://make.powerapps.com) das **App-Startfeld** oben links im Browserfenster und dann **OneDrive** aus.
+1. Wählen Sie im [Power Apps Maker-Portal](https://make.powerapps.com) das **App-Startfeld** oben links im Browserfenster und dann **SharePoint** aus.
 
-1. Wählen Sie in SharePoint **+Website erstellen** aus.
+1. Wenn das Popupdialogfeld **Willkommen auf der SharePoint-Startseite** angezeigt wird, wählen Sie **X** aus, um das Dialogfeld zu schließen.
+
+1. Wählen Sie in SharePoint **+ Website erstellen** aus.
 
 1. Wählen Sie **Teamwebsite**, die Vorlage **Standardteam** und dann **Vorlage verwenden** aus.
 
@@ -44,6 +46,8 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 1. Wählen Sie **Standort anlegen**.
 
 1. Wählen Sie **Fertig stellen**aus.
+
+1. Wenn das Popupdialogfeld **Mit dem Entwerfen Ihrer Website beginnen** angezeigt wird, schließen Sie das Dialogfeld.
 
 ### Aufgabe 1.2 Erstellen einer SharePoint-Liste
 
@@ -55,7 +59,7 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Geben Sie `Bookings` als **Name** ein, und wählen Sie **Erstellen** aus.
 
-1. Wählen Sie **+Spalte hinzufügen** und **Text** aus, und wählen Sie **Weiter** aus.
+1. Wählen Sie **+ Spalte hinzufügen** und **Text**, und dann **Weiter** aus.
 
 1. Geben Sie im Bereich **Spalte erstellen** die folgenden Werte ein, oder wählen Sie sie aus:
 
@@ -64,7 +68,7 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Wählen Sie **Speichern**.
 
-1. Wählen Sie **+Spalte hinzufügen** und **Text** aus, und wählen Sie **Weiter** aus.
+1. Wählen Sie **+ Spalte hinzufügen** und **Text**, und dann **Weiter** aus.
 
 1. Geben Sie im Bereich **Spalte erstellen** die folgenden Werte ein, oder wählen Sie sie aus:
 
@@ -73,18 +77,18 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Wählen Sie **Speichern**.
 
-1. Wählen Sie **Spalte hinzufügen** und dann **Datum und Uhrzeit** aus, und wählen Sie **Weiter** aus.
+1. Wählen Sie **+ Spalte hinzufügen** und dann **Datum und Uhrzeit** aus, und wählen Sie **Weiter** aus.
 
-1. Geben Sie im Bereich **Spalte erstellen** die folgenden Werte ein, oder wählen Sie sie aus:
+1. Geben Sie im Bereich **Erstellen einer Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
 
    1. Name: `Start Date`
    1. Datentyp: **Datum und Uhrzeit**
 
 1. Wählen Sie **Speichern**.
 
-1. Wählen Sie **Spalte hinzufügen** und dann **Datum und Uhrzeit** aus, und wählen Sie **Weiter** aus.
+1. Wählen Sie **+ Spalte hinzufügen** und dann **Datum und Uhrzeit** aus, und wählen Sie **Weiter** aus.
 
-1. Geben Sie im Bereich **Spalte erstellen** die folgenden Werte ein, oder wählen Sie sie aus:
+1. Geben Sie im Bereich **Erstellen einer Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
 
    1. Name: `End Date`
    1. Datentyp: **Datum und Uhrzeit**
@@ -141,7 +145,7 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Wählen Sie **6 ausgewählt** neben **Felder** aus.
 
-1. Wählen Sie **Entscheidung** für **Titel** aus.
+1. Wählen Sie **Name des Haustiers** für **Titel** aus.
 
 1. Wählen Sie **Startdatum** für **Untertitel** aus.
 
@@ -151,7 +155,7 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Ändern Sie den Namen des Katalogs in `BookingList`.
 
-1. Legen Sie die Eigenschaften des Katalogs wie folgt fest:
+1. Legen Sie die Eigenschaften des Katalogs in der Bearbeitungsleiste wie folgt fest:
 
    1. X = `1000`
    1. Y = `80`
@@ -168,7 +172,7 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Wählen Sie **NextArrow** aus.
 
-1. Legen Sie die **OnSelect**-Eigenschaft von NextArrow folgendermaßen fest:
+1. Legen Sie die **OnSelect**-Eigenschaft von NextArrow in der Bearbeitungsleiste auf Folgendes fest:
 
     ```powerappsfl
     Collect(colRequests, ThisItem)
@@ -178,7 +182,7 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Wählen Sie das **App**-Objekt aus.
 
-1. Legen Sie die **OnStart**-Eigenschaft von NextArrow folgendermaßen fest:
+1. Legen Sie die **OnStart**-Eigenschaft in der Bearbeitungsleiste auf Folgendes fest:
 
     ```powerappsfl
     Clear(colRequests)
@@ -204,7 +208,7 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
     ![Screenshot: Bearbeiten des Katalogs.](../media/icon-added-gallery.png)
 
-1. Legen Sie die Eigenschaften des Symbols wie folgt fest:
+1. Legen Sie die Eigenschaften des Symbols in der Bearbeitungsleiste wie folgt fest:
 
    1. X = `150`
    1. Y = `40`
@@ -215,7 +219,7 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Benennen Sie das Symbol in `DeclineIcon` um.
 
-1. Legen Sie die **OnSelect**-Eigenschaft von **DeclineIcon** folgendermaßen fest:
+1. Legen Sie die **OnSelect**-Eigenschaft von **DeclineIcon** in der Bearbeitungsleiste auf Folgendes fest:
 
     ```powerappsfl
     Patch('Booking Requests', ThisItem, {Decision: 'Decision (Booking Requests)'.Declined})
@@ -247,7 +251,7 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Benennen Sie die Beschriftung in `UserDetailsLabel` um.
 
-1. Legen Sie die **OnSelect**-Eigenschaft von **UserDetailsLabel** folgendermaßen fest:
+1. Legen Sie die **Texteigenschaft** von **UserDetailsLabel** in der Bearbeitungsleiste auf Folgendes fest:
 
     ```powerappsfl
     Office365Users.MyProfile().Country

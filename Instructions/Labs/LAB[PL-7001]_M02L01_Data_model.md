@@ -117,7 +117,9 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Format: **Text**
    1. Erforderlich: **Optional**
 
-### Aufgabe 1.4: Hinzufügen einer Auswahlspalte
+1. Wählen Sie **Speichern**.
+
+### Aufgabe 1.4: Hinzufügen einer Auswahlspalte
 
 1. Wählen Sie im Bereich **Spalten und Daten von Booking Request** **+** aus, und geben Sie im Bereich **Neue Spalte** die folgenden Werte ein, oder wählen Sie diese aus:
 
@@ -149,6 +151,8 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 1. Wählen Sie im linken Navigationsbereich **Tabellen** aus.
 
+1. Wählen Sie **Buchungsanfrage** aus.
+
 1. Wählen Sie im Bereich **Spalten und Daten von Booking Request** **+** aus, und geben Sie im Bereich **Neue Spalte** die folgenden Werte ein, oder wählen Sie diese aus:
 
    1. Anzeigename: `Account`
@@ -159,3 +163,49 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
     ![Screenshot des Bereichs „Neue Lookupspalte“](../media/new-lookup.png)
 
 1. Wählen Sie **Speichern**.
+
+## Übung 3: Daten
+
+### Aufgabe 3.1 – Hinzufügen von Buchungsanfragedatensätzen
+
+1. Navigieren Sie zum Power Apps Maker-Portal unter <https://make.powerapps.com>.
+
+1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
+
+1. Wählen Sie im linken Navigationsbereich **Tabellen** aus.
+
+1. Wählen Sie **Buchungsanfrage** aus.
+
+1. Wählen Sie im Bereich **Spalten und Daten der Buchungsanfrage** das Dropdown-Kreuz neben **Bearbeiten** und wählen Sie **In neuer Registerkarte bearbeiten** aus.
+
+1. Geben Sie die folgenden Werte ein bzw. wählen Sie diese aus.
+
+   1. Name des Haustiers: `Fido`
+   1. Name des Besitzers: `MOD Administrator`
+   1. E-Mail des Besitzers: Verwenden Ihrer Mandanten-E-Mail
+   1. Startdatum: **Morgen**
+   1. Enddatum: **Auswählen eines Datums in der folgenden Woche**
+   1. Kosten: `1,000`
+   1. Entscheidung: **Akzeptiert**
+
+1. Wählen Sie **Zeile unterhalb einfügen** aus, und geben Sie die folgenden Werte ein, oder wählen Sie sie aus:
+
+   1. Name des Haustiers: `Tom`
+   1. Name des Besitzers: `MOD Administrator`
+   1. E-Mail des Besitzers: Verwenden Ihrer Mandanten-E-Mail
+   1. Startdatum: **Auswählen eines Datums im nächsten Monat**
+   1. Enddatum: **Auswählen eines Datums nach dem Startdatum**
+   1. Kosten: `1,500`
+   1. Entscheidung: **Weiß nicht**
+
+1. Wählen Sie **Zeile unterhalb einfügen** aus, und geben Sie die folgenden Werte ein, oder wählen Sie sie aus:
+
+   1. Name des Haustiers: `Jim`
+   1. Name des Besitzers: `MOD Administrator`
+   1. E-Mail des Besitzers: Verwenden Ihrer Mandanten-E-Mail
+   1. Startdatum: **Zukünftiges Datum im aktuellen Monat auswählen**
+   1. Enddatum: **Auswählen eines Datums nach dem Startdatum**
+   1. Kosten: `250`
+   1. Entscheidung: **Abgelehnt**
+
+1. Schließen Sie die Registerkarte „Daten bearbeiten“.

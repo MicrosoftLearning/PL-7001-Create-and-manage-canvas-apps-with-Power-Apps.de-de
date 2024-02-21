@@ -52,7 +52,7 @@ In diesem Lab ändern Sie die Farben der Steuerelemente in der App.
 
 1. Wählen Sie **NextArrow** aus.
 
-1. Legen Sie die Eigenschaft **Farbe** von „NextArrow“ wie folgt fest:
+1. Legen Sie die **Color**-Eigenschaft von NextArrow in der Bearbeitungsleiste auf Folgendes fest:
 
     ```powerappsfl
     RGBA(164, 38, 44, 1)
@@ -60,7 +60,7 @@ In diesem Lab ändern Sie die Farben der Steuerelemente in der App.
 
 1. Wählen Sie die Option **Textkörper**.
 
-1. Legen Sie die Eigenschaft **Farbe** von „Body“ wie folgt fest:
+1. Legen Sie die **Color**-Eigenschaft des Textkörpers in der Bearbeitungsleiste auf Folgendes fest:
 
     ```powerappsfl
     If(ThisItem.Cost > 1000, RGBA(164, 38, 44, 1), Color.Black)
@@ -84,13 +84,13 @@ In diesem Lab ändern Sie die Farben der Steuerelemente in der App.
 
 1. Benennen Sie die Beschriftung in `UserLabel` um.
 
-1. Legen Sie die Eigenschaften der Bezeichnung wie folgt fest:
+1. Legen Sie die Eigenschaften der Beschriftung in der Bearbeitungsleiste wie folgt fest:
 
-   1. X=`1100`
+   1. X = `1100`
    1. Y=`20`
-   1. Height=`40`
-   1. Width=`250`
-   1. Align=`Align.Right`
+   1. Höhe = `40`
+   1. Breite=`250`
+   1. Ausrichtung=`Align.Right`
    1. Size=`18`
    1. PaddingRight=`10`
    1. Color=`Color.White`
@@ -100,4 +100,4 @@ In diesem Lab ändern Sie die Farben der Steuerelemente in der App.
 
 1. Wählen Sie oben rechts in Power Apps Studio **Speichern** aus.
 
-1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu verlassen.
+1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.
