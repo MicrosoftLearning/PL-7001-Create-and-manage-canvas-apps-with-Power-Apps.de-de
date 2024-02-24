@@ -65,9 +65,11 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 ### Aufgabe 1.3: Hinzufügen der Navigation
 
-1. Wählen Sie **NextArrow** in **BookingRequestList** im **MainScreen** aus.
+1. Erweitern Sie in der **Strukturansicht** **BookingRequestList** im **MainScreen**.
 
-1. Legen Sie die **OnSelect-**-Eigenschaft von NextArrow auf Folgendes fest:
+1. Wählen Sie **NextArrow** in **BookingRequestList** aus.
+
+1. Legen Sie die **OnSelect**-Eigenschaft von NextArrow in der Bearbeitungsleiste auf Folgendes fest:
 
     ```powerappsfl
     Collect(colRequests, ThisItem);Navigate(DetailScreen, ScreenTransition.Cover);
@@ -90,6 +92,8 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 1. Wählen Sie in der **Strukturansicht** das Symbol aus, und wählen Sie die Befehle (**...**) und anschließend **Kopieren** aus.
 
 1. Erweitern Sie **DetailScreen**.
+
+1. Erweitern Sie **ScreenContainer**.
 
 1. Wählen Sie **HeaderContainer** aus und anschließend die Befehle (**...**) aus, und wählen Sie **Einfügen** aus.
 
@@ -148,7 +152,7 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. **Schließen** Sie den Bereich **Felder**.
 
-1. Legen Sie die Eigenschaft **Item** des Formularanzeige-Steuerelements auf Folgendes fest:
+1. Legen Sie die **Item**-Eigenschaft des Formularanzeige-Steuerelements in der Bearbeitungsleiste auf Folgendes fest:
 
     ```powerappsfl
     BookingRequestList.Selected
@@ -259,7 +263,7 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
    1. X=`0`
    1. Y=`125`
-   1. Höhe=`500`
+   1. Höhe = `500`
    1. Breite=`Parent.Width`
    1. Spalten=`1`
    1. Layout=`Horizontal`
@@ -348,7 +352,7 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
    1. X=`0`
    1. Y=`0`
-   1. Höhe=`80`
+   1. Höhe = `80`
    1. Breite=`80`
    1. Farbe=`Color.White`
 
@@ -360,4 +364,4 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Wählen Sie oben rechts in Power Apps Studio **Speichern** aus.
 
-1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu verlassen.
+1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.
