@@ -21,7 +21,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer vorhandenen 
   
 ## Voraussetzungen
 
-- Sie müssen **Lab 0: Labumgebung überprüfen** abgeschlossen haben.
+- Sie müssen Folgendes abgeschlossen haben: **Lab 0: Überprüfen der Labumgebung**
 
 ## Ausführliche Schritte
 
@@ -79,6 +79,8 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer vorhandenen 
 
     ![Screenshot des Bildschirms „Durchsuchen“ in einer App mit drei Bildschirmen](../media/three-screen-app-browse-screen.png)
 
+1. Wenn das Popupdialogfeld **Willkommen bei Power Apps Studio** angezeigt wird, wählen Sie **Nicht mehr anzeigen** und dann **Überspringen** aus.
+
 1. Wählen Sie **Speichern** oben rechts in Power Apps Studio aus, geben Sie `Coffee Machines App` ein, und wählen Sie erneut **Speichern** aus.
 
 ### Aufgabe 2.2: Testen der App
@@ -89,7 +91,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer vorhandenen 
 
 1. Wählen Sie oben rechts in der App das Symbol **Bearbeiten** aus. Dadurch wird der Bildschirm „Bearbeiten“ geöffnet.
 
-1. Ändern Sie den **Maschinenpreis**, und wählen Sie oben rechts in der App das Symbol **Übermitteln** aus.
+1. Ändern Sie den **Maschinenpreis**, und wählen Sie oben rechts in der App das Symbol **Element übermitteln** aus.
 
 1. Wählen Sie oben links in der App das Symbol **<** aus.
 
@@ -101,15 +103,15 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer vorhandenen 
 
 1. Geben Sie `999` als **Maschinenpreis** ein.
 
-1. Wählen Sie oben rechts in der App das Symbol **Übermitteln** aus.
+1. Wählen Sie oben rechts in der App das Symbol **Element übermitteln** aus.
 
 1. Geben Sie `Demo` unter **Elemente durchsuchen** ein.
 
 1. Wählen Sie das **X** in der oberen rechten Ecke aus, um die Vorschau zu beenden.
 
-1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.
+1. Wenn das Popupdialogfeld **Schon gewusst...?** angezeigt wird, wählen Sie **Nicht mehr anzeigen** und dann **OK** aus.
 
-1. Wählen Sie im linken Menü des Power Apps Maker-Portals die Registerkarte **+ Erstellen** aus.
+1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.
 
 ## Übung 3: Erstellen einer Canvas-App mit Copilot
 
@@ -135,7 +137,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer vorhandenen 
 
     ![Screenshot der App von Copilot](../media/copilot-app.png)
 
-1. Wählen Sie **Speichern** oben rechts in Power Apps Studio aus, geben Sie `Coffee Repair App` ein, und wählen Sie erneut **Speichern** aus.
+1. Wählen Sie oben rechts in Power Apps Studio die Option **Speichern** aus.
 
 1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.
 
