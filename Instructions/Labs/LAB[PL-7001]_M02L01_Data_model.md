@@ -29,7 +29,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 ### Aufgabe 1.1: Erstellen der Tabelle „Booking Request“
 
-1. Navigieren Sie zum Power Apps Maker-Portal unter <https://make.powerapps.com>.
+1. Navigieren Sie zum Power Apps Maker-Portal `https://make.powerapps.com`.
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
@@ -39,7 +39,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
     ![Screenshot des Erstellens einer Tabelle in Dataverse](../media/create-new-table-dataverse.png)
 
-1. Aktivieren Sie das **Stiftsymbol** neben „Neue Tabelle“.
+1. Wählen Sie das Stiftsymbol **Tabelleneigenschaften bearbeiten** neben **Neue Tabelle** aus.
 
     ![Screenshot des neuen Tabellennamens](../media/table-name.png)
 
@@ -145,7 +145,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 ### Aufgabe 2.1: Erstellen einer Lookupspalte
 
-1. Navigieren Sie zum Power Apps Maker-Portal unter <https://make.powerapps.com>.
+1. Navigieren Sie zum Power Apps Maker-Portal `https://make.powerapps.com`.
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
@@ -209,3 +209,4 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Entscheidung: **Abgelehnt**
 
 1. Schließen Sie die Registerkarte „Daten bearbeiten“.
+
