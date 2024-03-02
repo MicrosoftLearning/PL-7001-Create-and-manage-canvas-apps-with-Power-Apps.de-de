@@ -26,15 +26,15 @@ In dieser Übung überprüfen Sie, ob Sie auf Power Apps zugreifen können.
 
 1. Navigieren Sie auf einer neuen Browserregisterkarte zu `https://powerapps.microsoft.com`.
 
-1. Wählen Sie **anmelden** aus.
+1. Wählen Sie **Anmelden**.
 
-1. Geben Sie die vom autorisierten Labhost bereitgestellte `email address` ein.
+1. Geben Sie die E-Mail-Adresse ein, die vom autorisierten Lab-Host bereitgestellt wird.
 
 1. Wählen Sie **Weiter** aus.
 
-1. Geben Sie die vom autorisierten Labhost bereitgestellte `password` ein.
+1. Geben Sie das Kennwort ein, dass Sie vom autorisierten Lab-Host erhalten haben.
 
-1. Wählen Sie **anmelden** aus.
+1. Wählen Sie **Anmelden**.
 
 1. Optional können Sie **Ja** auswählen, um angemeldet zu bleiben.
 

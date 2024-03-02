@@ -30,17 +30,17 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
 ### Aufgabe 1.1 – Erstellen der App
 
-1. Navigieren Sie zum Power Apps Maker-Portal <https://make.powerapps.com>.
+1. Navigieren Sie zum Power Apps Maker-Portal `https://make.powerapps.com`.
 
-1. Vergewissern Sie sich, dass Sie sich in der Umgebung **Dev One** befinden.
+1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
-1. Wählen Sie im linken Menü die Registerkarte **+ Erstellen** aus.
+1. Wählen Sie im linken Navigationsmenü die Registerkarte **+ Erstellen** aus.
 
 1. Wählen Sie die Kachel **Leere App** unter **Beginnen ab** aus.
 
-    ![Screenshot: Erstellen aus einer leeren App.](../media/create-from-blank.png)
-
 1. Wählen Sie **Erstellen** unter der Kachel **Leere Canvas-App** aus.
+
+    ![Screenshot: Erstellen aus einer leeren App.](../media/create-from-blank.png)
 
 1. Geben Sie `Booking Request app` als **App-Name** ein.
 
@@ -54,6 +54,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
 1. Wählen Sie oben rechts in Power Apps Studio **Speichern** aus.
 
+
 ### Aufgabe 1.2 – Hinzufügen einer Datenquelle
 
 1. Wählen Sie im App-Erstellungsmenü **Daten** aus.
@@ -65,6 +66,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
     ![Screenshot: Auswahl von Datenquelle.](../media/studio-data-search.png)
 
 1. Wählen Sie die Microsoft Dataverse-Tabelle **Buchungsanfragen** aus.
+
 
 ### Aufgabe 1.3 – Konfigurieren des Hauptbildschirms
 
@@ -87,7 +89,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 1. Legen Sie die Eigenschaften des Rechtecks in der Bearbeitungsleiste wie folgt fest:
 
    1. X = `0`
-   1. Y=`0`
+   1. Y = `0`
    1. Höhe = `80`
    1. Breite=`Parent.Width`
 
@@ -104,7 +106,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 1. Legen Sie die Eigenschaften der Beschriftung in der Bearbeitungsleiste wie folgt fest:
 
    1. X = `0`
-   1. Y=`0`
+   1. Y = `0`
    1. Höhe = `80`
    1. Breite=`Parent.Width`
    1. Ausrichtung=`Align.Center`
@@ -115,6 +117,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
     ![Screenshot: Hauptbildschirm mit Header.](../media/main-screen.png)
 
 1. Wählen Sie oben rechts in Power Apps Studio **Speichern** aus.
+
 
 ### Aufgabe 1.4 – Hinzufügen eines Katalogs
 
@@ -128,19 +131,19 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
     ![Screenshot: Katalogeigenschaften.](../media/gallery-properties.png)
 
-1. Wählen Sie **Titel, Untertitel und Textkörper** für **Layout** aus.
+1. Wählen Sie auf der Registerkarte **Eigenschaften** für **Layout** die Option **Titel, Untertitel und Textkörper** aus.
 
 1. Wählen Sie **7 ausgewählt** neben **Felder** aus.
 
-1. Wählen Sie **Kosten** für **Textkörper** aus.
+1. Wählen Sie **Kosten** für **Textkörper1** aus.
 
-1. Wählen Sie **Entscheidung** für **Untertitel** aus.
+1. Wählen Sie **Entscheidung** für **Untertitel2** aus.
 
-1. Wählen Sie **Name des Haustiers** für **Titel** aus.
+1. Wählen Sie **Name des Haustiers** für **Titel2** aus.
 
     ![Screenshot der Katalogfelder](../media/select-fields.png)
 
-1. Schließen Sie den Bereich Daten.
+1. Schließen Sie den Bereich **Daten**.
 
 1. Wählen Sie im Menü für die App-Erstellung **Strukturansicht** aus.
 
@@ -153,13 +156,14 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
    1. Höhe = `575`
    1. Breite=`250`
 
+
 ### Aufgabe 1.5 – Formatieren des Währungsfelds
 
 1. Wählen Sie im Menü für die App-Erstellung **Strukturansicht** aus.
 
-1. Erweitern Sie den Katalog.
+1. Erweitern Sie den Katalog **BookingRequestList**.
 
-1. Wählen Sie den Textkörper aus.
+1. Wählen Sie **Textkörper1** aus.
 
     ![Screenshot: ausgewähltes Textkörperfeld.](../media/body.png)
 
@@ -172,3 +176,4 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 1. Wählen Sie oben rechts in Power Apps Studio die Option **Speichern** aus.
 
 1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.
+

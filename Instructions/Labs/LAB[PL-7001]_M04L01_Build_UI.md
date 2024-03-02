@@ -48,9 +48,9 @@ In diesem Lab ändern Sie die Farben der Steuerelemente in der App.
 
 1. Wählen Sie im Menü für die App-Erstellung **Strukturansicht** aus.
 
-1. Erweitern Sie den Katalog.
+1. Erweitern Sie den Katalog **BookingRequestList**.
 
-1. Wählen Sie **NextArrow** aus.
+1. Wählen Sie **WeiterPfeil2** aus.
 
 1. Legen Sie die **Color**-Eigenschaft von NextArrow in der Bearbeitungsleiste auf Folgendes fest:
 
@@ -58,7 +58,7 @@ In diesem Lab ändern Sie die Farben der Steuerelemente in der App.
     RGBA(164, 38, 44, 1)
     ```
 
-1. Wählen Sie die Option **Textkörper**.
+1. Wählen Sie **Textkörper1** aus.
 
 1. Legen Sie die **Color**-Eigenschaft des Textkörpers in der Bearbeitungsleiste auf Folgendes fest:
 
@@ -68,11 +68,12 @@ In diesem Lab ändern Sie die Farben der Steuerelemente in der App.
 
 1. Wählen Sie oben rechts in Power Apps Studio **Speichern** aus.
 
+
 ## Übung 2: Personalisierung
 
 ### Aufgabe 2.1: Hinzufügen einer Benutzerbezeichnung
 
-1. Klicken Sie außerhalb des Katalogs auf den leeren Canvas.
+1. Klicken Sie außerhalb des Katalogs im leeren Canvas-Panel, oder wählen Sie **Hauptbildschirm** aus.
 
 1. Wählen Sie im Menü für die App-Erstellung **Einfügen (+)** aus.
 
@@ -87,7 +88,7 @@ In diesem Lab ändern Sie die Farben der Steuerelemente in der App.
 1. Legen Sie die Eigenschaften der Beschriftung in der Bearbeitungsleiste wie folgt fest:
 
    1. X = `1100`
-   1. Y=`20`
+   1. Y = `20`
    1. Höhe = `40`
    1. Breite=`250`
    1. Ausrichtung=`Align.Right`

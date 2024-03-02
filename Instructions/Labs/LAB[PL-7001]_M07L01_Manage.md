@@ -96,7 +96,7 @@ In diesem Lab verwalten Sie Ihre Canvas-App.
 
 1. Wählen Sie die **Booking Request-App**, die Befehle (**...**) und dann **Bearbeiten > Auf neuer Registerkarte bearbeiten** aus.
 
-1. Wählen Sie das Dropdown-Caret neben **Speichern** oben rechts im Power Apps Studio aus.
+1. Wählen Sie das Dropdowncaret neben **Speichern** oben rechts in Power Apps Studio aus.
 
 1. Wählen Sie **Kopie herunterladen** aus.
 
