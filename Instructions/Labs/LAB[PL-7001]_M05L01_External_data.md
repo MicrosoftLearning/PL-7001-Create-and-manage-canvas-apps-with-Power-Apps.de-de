@@ -33,9 +33,9 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 ### Aufgabe 1.1 Erstellen einer SharePoint-Website
 
-1. Wählen Sie im [Power Apps Maker-Portal](https://make.powerapps.com) das **App-Startfeld** oben links im Browserfenster und dann **SharePoint** aus.
+1. Wählen Sie im Power Apps Maker-Portal `https://make.powerapps.com` das **App-Startfeld** oben links im Browserfenster und dann **SharePoint** aus.
 
-1. Wenn das Popupdialogfeld **Willkommen auf der SharePoint-Startseite** angezeigt wird, wählen Sie **X** aus, um das Dialogfeld zu schließen.
+1. Wenn das Popupdialogfeld **Willkommen auf der SharePoint-Startseite** angezeigt wird, wählen Sie **✖** aus, um das Dialogfeld zu schließen.
 
 1. Wählen Sie in SharePoint **+ Website erstellen** aus.
 
@@ -48,6 +48,7 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 1. Wählen Sie **Fertig stellen**aus.
 
 1. Wenn das Popupdialogfeld **Mit dem Entwerfen Ihrer Website beginnen** angezeigt wird, schließen Sie das Dialogfeld.
+
 
 ### Aufgabe 1.2 Erstellen einer SharePoint-Liste
 
@@ -97,17 +98,19 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Kopieren Sie den ersten Teil der URL der SharePoint-Website, z. B. `https://m365x99999999.sharepoint.com/sites/Petboarding/`.
 
+
 ## Übung 2: Hinzufügen einer SharePoint-Liste zur Canvas-App
 
 ### Aufgabe 2.1: Bearbeiten der App
 
-1. Navigieren Sie zum Power Apps Maker-Portal <https://make.powerapps.com>.
+1. Navigieren Sie zum Power Apps Maker-Portal `https://make.powerapps.com`.
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
-1. Wählen Sie im linken Menü die Registerkarte **Apps** aus.
+1. Wählen Sie im linken Navigationsmenü die Registerkarte **Apps** aus.
 
 1. Wählen Sie die **Buchungsanfrage-App**, die Befehle (**...**) und dann **Bearbeiten > Auf neuer Registerkarte bearbeiten** aus.
+
 
 ### Aufgabe 2.2: Hinzufügen von SharePoint als Datenquelle
 
@@ -145,11 +148,11 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Wählen Sie **6 ausgewählt** neben **Felder** aus.
 
-1. Wählen Sie **Name des Haustiers** für **Titel** aus.
+1. Wählen Sie **Name des Haustiers** für **Titel3** aus.
 
-1. Wählen Sie **Startdatum** für **Untertitel** aus.
+1. Wählen Sie **Startdatum** für **Untertitel3** aus.
 
-1. Schließen Sie den Bereich Daten.
+1. Schließen Sie den Bereich **Daten**.
 
 1. Wählen Sie im Menü für die App-Erstellung **Strukturansicht** aus.
 
@@ -206,14 +209,14 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Wählen Sie **Blocked** (Blockiert) aus. Das Symbol wird jeder Zeile im Katalog hinzugefügt.
 
-    ![Screenshot: Bearbeiten des Katalogs.](../media/icon-added-gallery.png)
-
 1. Legen Sie die Eigenschaften des Symbols in der Bearbeitungsleiste wie folgt fest:
 
    1. X = `150`
    1. Y = `40`
    1. Höhe = `30`
-   1. Breite = `30`
+   1. Breite=`30`
+
+    ![Screenshot: Bearbeiten des Katalogs.](../media/icon-added-gallery.png)
 
 1. Wählen Sie im Menü für die App-Erstellung **Strukturansicht** aus.
 
@@ -237,9 +240,10 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Wählen Sie **Verbinden** aus.
 
+
 ### Aufgabe 5.2 Anzeigen des Landes des Benutzers
 
-1. Klicken Sie außerhalb des Katalogs auf den leeren Canvas.
+1. Klicken Sie außerhalb des Katalogs im leeren Canvas-Panel, oder wählen Sie **Hauptbildschirm** in der **Strukturansicht** aus.
 
 1. Wählen Sie im Menü für die App-Erstellung **Einfügen (+)** aus.
 
@@ -257,6 +261,14 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
     Office365Users.MyProfile().Country
     ```
 
+1. Legen Sie die Eigenschaften der Beschriftung in der Bearbeitungsleiste wie folgt fest:
+
+   1. X = `930`
+   1. Y = `20`
+   1. Größe=`18`
+   1. Farbe=`Color.White`
+
 1. Wählen Sie oben rechts in Power Apps Studio die Option **Speichern** aus.
 
 1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.
+
