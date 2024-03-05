@@ -32,11 +32,11 @@ In diesem Lab verwalten Sie Ihre Canvas-App.
 
 ### Aufgabe 1.1: Freigeben der Booking Request-App
 
-1. Navigieren Sie zum Power Apps Maker-Portal unter <https://make.powerapps.com>.
+1. Navigieren Sie zum Power Apps Maker-Portal `https://make.powerapps.com`.
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
-1. Wählen Sie im linken Menü die Registerkarte **Apps** aus.
+1. Wählen Sie im linken Navigationsmenü die Registerkarte **Apps** aus.
 
 1. Wählen Sie die **Booking Request-App**, die Befehle (**...**) und dann **Freigeben** aus.
 
@@ -49,6 +49,7 @@ In diesem Lab verwalten Sie Ihre Canvas-App.
 1. Wählen Sie **Teilen** aus.
 
 1. **Schließen** Sie den Bereich „App freigeben“.
+
 
 ### Aufgabe 1.2: Veröffentlichen der Booking Request-App
 
@@ -66,33 +67,35 @@ In diesem Lab verwalten Sie Ihre Canvas-App.
 
 1. Wählen Sie erneut **Diese Version veröffentlichen** aus.
 
+
 ## Übung 2: Exportieren
 
 ### Aufgabe 2.1: Exportieren der Booking Request-App
 
-1. Navigieren Sie zum Power Apps Maker-Portal unter <https://make.powerapps.com>.
+1. Navigieren Sie zum Power Apps Maker-Portal `https://make.powerapps.com`.
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
-1. Wählen Sie im linken Menü die Registerkarte **Apps** aus.
+1. Wählen Sie im linken Navigationsmenü die Registerkarte **Apps** aus.
 
 1. Wählen Sie die **Booking Request-App**, die Befehle (**...**) und dann **Paket exportieren** aus.
 
-    ![Screenshot der Seite „App exportieren“](../media/export-package.png)
-
-1. Geben Sie den Namen `Booking Request app` ein.
+1. Geben Sie unter **Name** den Namen `Booking Request app` ein.
 
 1. Wählen Sie unter **IMPORT SETUP** die Option **Aktualisieren** aus.
 
 1. Wählen Sie **Als neu erstellen** und dann **Speichern** aus.
 
+    ![Screenshot der Seite „App exportieren“](../media/export-package.png)
+
 1. Wählen Sie **Exportieren**.
 
-1. Warten Sie, bis das Paket erstellt und heruntergeladen worden ist. Dadurch wird eine ZIP-Datei im Ordner „Downloads“ erstellt.
+1. Warten Sie, bis das Paket erstellt und heruntergeladen worden ist. Dadurch wird eine ZIP-Datei im Ordner **Downloads** erstellt.
+
 
 ### Aufgabe 2.2: Lokales Speichern der App
 
-1. Wählen Sie im linken Menü die Registerkarte **Apps** aus.
+1. Wählen Sie im linken Navigationsmenü die Registerkarte **Apps** aus.
 
 1. Wählen Sie die **Booking Request-App**, die Befehle (**...**) und dann **Bearbeiten > Auf neuer Registerkarte bearbeiten** aus.
 
@@ -100,6 +103,7 @@ In diesem Lab verwalten Sie Ihre Canvas-App.
 
 1. Wählen Sie **Kopie herunterladen** aus.
 
-1. Wählen Sie **Herunterladen** aus.  Dadurch wird eine MSAPP-Datei im Ordner „Downloads“ erstellt.
+1. Wählen Sie **Herunterladen** aus.  Dadurch wird eine MSAPP-Datei im Ordner **Downloads** erstellt.
 
 1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.
+
