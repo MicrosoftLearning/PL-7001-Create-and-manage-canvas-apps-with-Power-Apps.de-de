@@ -37,13 +37,14 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 ### Aufgabe 1.1: Bearbeiten der App
 
-1. Navigieren Sie zum Power Apps Maker-Portal <https://make.powerapps.com>.
+1. Navigieren Sie zum Power Apps Maker-Portal `https://make.powerapps.com`.
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
-1. Wählen Sie im linken Menü die Registerkarte **Apps** aus.
+1. Wählen Sie im linken Navigationsmenü die Registerkarte **Apps** aus.
 
 1. Wählen Sie die **Buchungsanfrage-App**, die Befehle (**...**) und dann **Bearbeiten > Auf der neuen Registerkarte bearbeiten** aus.
+
 
 ### Aufgabe 1.2: Hinzufügen von Bildschirmen
 
@@ -62,6 +63,7 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 1. Wählen Sie **Kopf- und Fußzeile** aus.
 
 1. Ändern Sie den Bildschirmnamen in `DetailScreen`.
+
 
 ### Aufgabe 1.3: Hinzufügen der Navigation
 
@@ -96,6 +98,7 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 1. Erweitern Sie **ScreenContainer**.
 
 1. Wählen Sie **HeaderContainer** aus und anschließend die Befehle (**...**) aus, und wählen Sie **Einfügen** aus.
+
 
 ## Übung 2: Bildschirm „Details“
 
@@ -262,13 +265,14 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 1. Legen Sie die Eigenschaften des Formulars wie folgt fest:
 
    1. X=`0`
-   1. Y=`125`
+   1. Y = `125`
    1. Höhe = `500`
    1. Breite=`Parent.Width`
    1. Spalten=`1`
    1. Layout=`Horizontal`
 
     ![Screenshot des konfigurierten Buchungsanfrageformulars.](../media/bookingrequestform.png)
+
 
 ### Aufgabe 3.2: Hinzufügen der Schaltfläche „Senden“
 
@@ -351,7 +355,7 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 1. Legen Sie die Eigenschaften des Symbols wie folgt fest:
 
    1. X=`0`
-   1. Y=`0`
+   1. Y = `0`
    1. Höhe = `80`
    1. Breite=`80`
    1. Farbe=`Color.White`
@@ -365,3 +369,4 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 1. Wählen Sie oben rechts in Power Apps Studio **Speichern** aus.
 
 1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.
+
