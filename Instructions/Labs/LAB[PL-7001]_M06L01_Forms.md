@@ -108,9 +108,9 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Erweitern Sie **DetailScreen**.
 
-1. Erweitern Sie **ScreenContainer**.
+1. Erweitern Sie **ScreenContainer1**.
 
-1. Wählen Sie **MainContainer** aus.
+1. Wählen Sie  **"MainContainer1**" aus.
 
 1. Wählen Sie im Menü für die App-Erstellung **Einfügen (+)** aus.
 
@@ -167,9 +167,9 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Erweitern Sie **DetailScreen**.
 
-1. Erweitern Sie **ScreenContainer**.
+1. Erweitern Sie **ScreenContainer1**.
 
-1. Wählen Sie **FooterContainer** aus.
+1. Wählen Sie  **"FooterContainer1"** aus.
 
 1. Wählen Sie **+** im Fußzeilencontainer aus.
 
@@ -189,9 +189,9 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Erweitern Sie **DetailScreen**.
 
-1. Erweitern Sie **ScreenContainer**.
+1. Erweitern Sie **ScreenContainer1**.
 
-1. Wählen Sie **FooterContainer** aus.
+1. Wählen Sie  **"FooterContainer1"** aus.
 
 1. Wählen Sie im Menü für die App-Erstellung **Einfügen (+)** aus.
 
@@ -304,7 +304,7 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Wählen Sie **BookingRequestForm** aus.
 
-1. Legen Sie die Eigenschaft **OnSuccess** für die Schaltfläche auf Folgendes fest:
+1. Legen Sie die Eigenschaft **OnSuccess** für die Form auf Folgendes fest:
 
     ```powerappsfl
     Navigate(MainScreen, ScreenTransition.UnCover)
@@ -354,7 +354,7 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Legen Sie die Eigenschaften des Symbols wie folgt fest:
 
-   1. X=`0`
+   1. X = `0`
    1. Y = `0`
    1. Höhe = `80`
    1. Breite=`80`
