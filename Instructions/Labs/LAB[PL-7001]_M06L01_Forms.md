@@ -122,21 +122,16 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Wählen Sie in den Eigenschaften von FormViewer **Buchungsanfragen** für **Datenquelle** aus.
 
-1. Wählen Sie **2 ausgewählt** neben **Felder** aus.
+1. Wählen Sie **8 ausgewählt** neben **Felder** aus.
 
     ![Screenshot der Standardformularfelder](../media/add-fields-default.png)
 
-1. Entfernen Sie **Erstellt am**, indem Sie die Auslassungspunkte (**...**) neben dem Feld und dann **Entfernen** auswählen.
+1. Entfernen Sie die Felder **Status** und **Anmerkungen**, indem Sie die Ellipse (**...**) neben den Feldern auswählen und **Entfernen** wählen.
 
-1. Wählen Sie **+ Feld hinzufügen** und dann die folgenden Felder aus:
+1. Wählen Sie **+ Feld hinzufügen** und dann das folgende Feld aus:
 
-   1. Kosten
    1. Entscheidung
-   1. Enddatum
-   1. Besitzer-E-Mail
-   1. Owner Name
-   1. Startdatum
-
+   
     ![Screenshot: Hinzufügen von Feldern zum Formular](../media/add-fields.png)
 
 1. Wählen Sie **Hinzufügen** aus.
@@ -227,19 +222,9 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Wählen Sie in den Eigenschaften des Formulars **Buchungsanfragen** für **Datenquelle** aus.
 
-1. Wählen Sie **2 ausgewählt** neben **Felder** aus.
+1. Wählen Sie **8 ausgewählt** neben **Felder** aus.
 
-1. Entfernen Sie **Erstellt am**, indem Sie die Auslassungspunkte (**...**) neben dem Feld und dann **Entfernen** auswählen.
-
-1. Wählen Sie **+ Feld hinzufügen** und dann die folgenden Felder aus:
-
-   1. Kosten
-   1. Enddatum
-   1. Besitzer-E-Mail
-   1. Owner Name
-   1. Startdatum
-
-1. Wählen Sie **Hinzufügen** aus.
+1. Entfernen Sie **Entscheidung** und **Anmerkungen**, indem Sie die Ellipse (**...**) neben den Feldern auswählen und **Entfernen** wählen.
 
 1. Ziehen Sie die Felder in den folgenden Ordner:
 

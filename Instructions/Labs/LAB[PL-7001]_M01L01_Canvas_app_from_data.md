@@ -126,15 +126,22 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer vorhandenen 
 
 1. Wählen Sie im linken Navigationsmenü die Registerkarte **Start** aus.
 
-1. Geben Sie unter **App erstellen – Was soll sie können?** den Text `Track coffee machine repairs for customers and assign repairs to technicians` ein, und wählen Sie zum Übermitteln das Pfeilsymbol **Los** aus.
+1. Geben Sie unter **App erstellen – Was soll sie können?** den Text `Assign coffee repairs to technicians per customer request` ein, und wählen Sie zum Übermitteln das Pfeilsymbol **Los** aus.
 
     ![Screenshot des Copilot-Prompts](../media/copilot-prompt.png)
 
+    Copilot beginnt mit der Erstellung einer Tabellenstruktur zur Unterstützung Ihrer Anwendung.
+
+    > **WICHTIG:** Wenn Sie generative KI verwenden, erhalten Sie nicht immer dieselben genauen Ergebnisse. Es ist möglich, dass Ihre Tabelle nicht genau mit der Tabelle übereinstimmt, die für einen anderen Kursteilnehmer erstellt wurde. 
+
+    > Um die Tabellenstruktur zu sehen, wählen Sie die Tabelle aus und klicken Sie auf die Schaltfläche **Daten anzeigen**. 
 1. Überprüfen der Tabelle
 
     ![Screenshot der Copilot-Tabelle](../media/copilot-table.png)
 
-1. Wählen Sie **App erstellen** aus.
+1. Wenn Sie mit Ihrer Tabelle zufrieden sind, wählen Sie die Schaltfläche **Speichern und App öffnen**. 
+
+1. Falls erforderlich, wählen Sie auf dem Bildschirm **Arbeit abgeschlossen?** die Option **Nicht mehr nachfragen** aus und wählen Sie die Schaltfläche **App speichern und öffnen** aus. 
 
 1. Warten Sie, bis die App erstellt wurde.
 
