@@ -35,29 +35,21 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 1. Wählen Sie im linken Navigationsbereich **Tabellen** aus.
 
-1. Wählen Sie **+ Neue Tabelle** und dann **Spalten und Daten hinzufügen** aus.
+1. Wählen Sie **+ Neue Tabelle**, und wählen Sie **Erweiterte Eigenschaften festlegen**.
 
     ![Screenshot des Erstellens einer Tabelle in Dataverse](../media/create-new-table-dataverse.png)
 
-1. Wählen Sie das Stiftsymbol **Tabelleneigenschaften bearbeiten** neben **Neue Tabelle** aus.
-
-    ![Screenshot des neuen Tabellennamens](../media/table-name.png)
-
 1. Geben Sie für **Anzeigename** `Booking Request` ein.
-
-1. Wählen Sie **Speichern**.
 
 ### Aufgabe 1.2: Primäre Spalte
 
-1. Wählen Sie das Dropdown-Caretzeichen neben **Neue Spalte** und danach **Spalte bearbeiten** aus.
+1. Wählen Sie die Registerkarte **Primäre Spalte** neben der Registerkarte **Eigenschaften** aus.
 
     ![Screenshot der primären Spalte](../media/primary-column.png)
 
 1. Geben Sie für **Anzeigename** `Pet Name` ein.
 
-1. Wählen Sie **Aktualisieren**.
-
-1. Klicken Sie auf **Erstellen**.
+1. Wählen Sie **Speichern**.
 
 ### Aufgabe 1.3: Hinzufügen von Spalten
 
