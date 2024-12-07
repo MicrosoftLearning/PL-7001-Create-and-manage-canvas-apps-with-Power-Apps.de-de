@@ -4,19 +4,19 @@
 
 ## Was tun wir?
 
-- Um diesen Kurs zu unterstützen, müssen häufig Änderungen an den Kursinhalten vorgenommen werden, um sie an den verwendeten Power Platform-Dienst anzupassen.  Wir veröffentlichen die Lab-Anweisungen und Lab-Dateien auf GitHub, um eine offene Zusammenarbeit zwischen den Kursautoren und MCTs zu ermöglichen, damit der Inhalt hinsichtlich Änderungen der Power Plattform auf dem neuesten Stand bleibt.
+- Um diesen Kurs zu unterstützen, müssen häufig Änderungen an den Kursinhalten vorgenommen werden, um sie an den verwendeten Power Platform-Dienst anzupassen.  Wir veröffentlichen die Lab-Anweisungen und Lab-Dateien auf GitHub, um eine offene Zusammenarbeit zwischen den Kursautoren bzw. Kursautorinnen und MCTs zu ermöglichen, damit der Inhalt hinsichtlich Änderungen der Power Platform auf dem neuesten Stand bleibt.
 
-- Wir hoffen, dass dies den Labs ein Klima der Zusammenarbeit verleiht, wie wir es noch nie zuvor hatten. Wenn sich Power Platform ändert und Ihnen die Änderung als Erstem auffällt, können Sie direkt im Lab-Quellcode eine Verbesserung vornehmen. Helfen Sie Ihren MCTs.
+- Wir hoffen, dass dies den Labs ein Klima der Zusammenarbeit verleiht, wie wir es noch nie zuvor hatten. Wenn sich Power Platform ändert und Ihnen die Änderung zuerst auffällt, können Sie direkt im Lab-Quellcode eine Verbesserung vornehmen. Helfen Sie Ihren MCTs.
 
 ## Wie sollte ich diese Dateien im Verhältnis zu den veröffentlichten Microsoft Learn Instructor Led Trainings-Dateien verwenden?
 
 - Der Trainervorbereitungsleitfaden und PowerPoint-Foliensammlungen werden weiterhin Ihre primäre Quelle für den Unterricht des Kursinhalts sein.
 
-- Diese Dateien auf GitHub können in Verbindung mit dem Kurs- und Lernmodulhandbuch verwendet werden. Sie befinden sich jedoch in GitHub als zentrales Repository, um MCTs und Kursautoren eine gemeinsame Quelle für die neuesten Lab-, Demo- und Übungsdateien zu bieten.
+- Diese Dateien auf GitHub können in Verbindung mit dem Kurs- und Lernmodulhandbuch verwendet werden. Sie befinden sich jedoch in GitHub als zentrales Repository, um MCTs und Kursautoren bzw. Kursautorinnen eine gemeinsame Quelle für die neuesten Lab-, Demo- und Übungsdateien zu bieten.
 
-- Kursleiter sollten GitHub vor jedem Kurs auf Änderungen überprüfen, die möglicherweise als Anpassung an die neuesten Power Platform-Dienste vorgenommen wurden, und die neuesten Dateien für den Kurs abrufen.
+- Kursleiter und Kursleiterinnen sollten GitHub vor jedem Kurs auf Änderungen überprüfen, die möglicherweise als Anpassung an die neuesten Power Platform-Dienste vorgenommen wurden, und die neuesten Dateien für den Kurs abrufen.
 
-## Was ist mit Änderungen an den Kursinhalten?
+## Was geschieht, wenn sich Kursinhalte ändern?
 
 - Kursinhalte befinden sich auf Microsoft Learn und können außerhalb des Kursveröffentlichungszeitplans aktualisiert werden.
 
