@@ -126,17 +126,7 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
     ![Screenshot der Standardformularfelder](../media/add-fields-default.png)
 
-1. Entfernen Sie die Felder **Status** und **Anmerkungen**, indem Sie die Ellipse (**...**) neben den Feldern auswählen und **Entfernen** wählen.
-
-1. Wählen Sie **+ Feld hinzufügen** und dann das folgende Feld aus:
-
-   1. Entscheidung
-   
-    ![Screenshot: Hinzufügen von Feldern zum Formular](../media/add-fields.png)
-
-1. Wählen Sie **Hinzufügen** aus.
-
-1. Ziehen Sie die Felder in den folgenden Ordner:
+1. Fügen Sie die Felder hinzu oder entfernen Sie sie, sodass sie in der folgenden Reihenfolge angeordnet sind:
 
    1. Name des Haustiers
    1. Owner Name
@@ -224,9 +214,7 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Wählen Sie **8 ausgewählt** neben **Felder** aus.
 
-1. Entfernen Sie **Entscheidung** und **Anmerkungen**, indem Sie die Ellipse (**...**) neben den Feldern auswählen und **Entfernen** wählen.
-
-1. Ziehen Sie die Felder in den folgenden Ordner:
+1. Fügen Sie die Felder hinzu oder entfernen Sie sie, sodass sie in der folgenden Reihenfolge angeordnet sind:
 
    1. Name des Haustiers
    1. Owner Name

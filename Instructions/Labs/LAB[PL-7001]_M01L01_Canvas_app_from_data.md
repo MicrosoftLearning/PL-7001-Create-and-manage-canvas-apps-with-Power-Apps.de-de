@@ -124,7 +124,10 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer vorhandenen 
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
-1. Wählen Sie im linken Navigationsmenü die Registerkarte **Start** aus.
+1. Wählen Sie im linken Navigationsmenü die Registerkarte **Start** aus. 
+
+   > Wenn die Umschaltoption **Neue Power Apps-Erfahrung ausprobieren** aktiviert ist, deaktivieren Sie sie bitte, damit dieses Lab ordnungsgemäß funktioniert.
+   > Wir werden bald neue Labs mit der aktualisierten Erfahrung starten.
 
 1. Geben Sie unter **App erstellen – Was soll sie können?** den Text `Assign coffee repairs to technicians per customer request` ein, und wählen Sie zum Übermitteln das Pfeilsymbol **Los** aus.
 

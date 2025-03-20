@@ -35,7 +35,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 1. Wählen Sie im linken Navigationsbereich **Tabellen** aus.
 
-1. Wählen Sie **+ Neue Tabelle**, und wählen Sie **Erweiterte Eigenschaften festlegen**.
+1. Wählen Sie **+ Neue Tabelle** aus, und wählen Sie **Tabelle (erweiterte Eigenschaften)**.
 
     ![Screenshot des Erstellens einer Tabelle in Dataverse](../media/create-new-table-dataverse.png)
 
