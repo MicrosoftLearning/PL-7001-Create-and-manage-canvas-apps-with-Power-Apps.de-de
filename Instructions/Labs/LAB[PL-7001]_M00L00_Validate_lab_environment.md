@@ -38,8 +38,22 @@ In dieser Übung überprüfen Sie, ob Sie auf Power Apps zugreifen können.
 
 1. Optional können Sie **Ja** auswählen, um angemeldet zu bleiben.
 
+1. Wenn Sie aufgefordert werden, sich **bei Microsoft Edge anzumelden**, wählen Sie **Nein, danke**.
+
 1. Wenn Sie zur Eingabe von Kontaktinformationen aufgefordert werden, behalten Sie für Land/Region die Standardwerte bei, geben Sie `0123456789` als Telefonnummer ein, und wählen Sie **Absenden** aus.
 
 1. Überprüfen Sie oben rechts auf dem Bildschirm, ob die **Umgebung** auf **Dev One** festgelegt ist. Hier arbeiten Sie während des gesamten Labs. Wenn sie nicht festgelegt ist, wählen Sie die Umgebung **Dev One** aus.
 
     ![Umgebungsselektor.](../media/select-dev-one-environment.png)
+
+1. Schließen Sie den Bereich **Umgebung auswählen**.
+
+### Aufgabe 1.2 – Browser aktualisieren
+
+Das Anwenden der neuesten Updates auf den Browser verhindert Probleme in der nächsten Übung beim Erstellen von Apps.
+
+1. Öffnen Sie den **Microsoft Edge**-Browser.
+
+1. Wählen Sie die **Befehle (...)** oben rechts im Browser, wählen Sie **Hilfe und Feedback** und anschließend **Über Microsoft Edge**.
+
+1. Wenden Sie Updates an, und starten Sie den Browser bei Bedarf neu.
