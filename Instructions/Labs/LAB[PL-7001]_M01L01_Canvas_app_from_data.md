@@ -15,7 +15,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer vorhandenen 
 
 ## Weiterführende Schritte des Lab
 
-- Erstellen einer Canvas-App mit drei Bildschirmen
+- Erstellen einer Canvas-App aus Daten
 - Testen der App
 - Erstellen einer Canvas-App mit Copilot
   
@@ -29,7 +29,7 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer vorhandenen 
 
 ### Aufgabe 1.1: Herunterladen des Excel-Arbeitsblatts
 
-1. Navigieren Sie zu [CoffeeMachineData.xlsx](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/coffee-machine-data/CoffeeMachineData.xlsx).
+1. Navigieren Sie zu [CoffeeMachineData.xlsx](https://github.com/MicrosoftLearning/PL-7001-Create-and-manage-canvas-apps-with-Power-Apps/blob/master/Allfiles/Labs/CoffeeMachineData.xlsx).
 
 1. Wählen Sie die Schaltfläche **Rohdatendatei** aus, um die Excel-Arbeitsmappe herunterzuladen.
 
@@ -43,16 +43,15 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer vorhandenen 
 
 1. Wenn ein Popupelement angezeigt wird, wählen Sie **Ihr OneDrive ist bereit** aus.
 
-1. Wählen Sie **+ Neu hinzufügen** und dann **Dateien hochladen** aus.
+1. Wählen Sie **+ Erstellen oder hochladen** und anschließend **Dateien hochladen** aus.
 
     ![Screenshot des OneDrive-Dateiuploads](../media/select-onedrive-upload.png)
 
-1. Navigieren Sie zu „Downloads“, und wählen Sie die Datei „CoffeeMachineData.xlsx“ und dann **Öffnen** aus.
+1. Navigieren Sie zum **Downloads**-Ordner, wählen Sie die Datei **CoffeeMachineData.xlsx** aus und klicken Sie auf **Öffnen**.
 
 1. Wählen Sie **Meine Dateien** aus, und überprüfen Sie, ob „CoffeeMachineData.xlsx“ hochgeladen wurde.
 
-
-## Übung 2: Erstellen einer Canvas-App mit drei Bildschirmen
+## Übung 2 – Erstellen einer Canvas-App aus Daten
 
 ### Aufgabe 2.1: Erstellen der App
 
@@ -62,59 +61,65 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer vorhandenen 
 
 1. Wählen Sie im linken Menü die Registerkarte **+ Erstellen** aus.
 
-1. Wählen Sie die Kachel **Excel** unter **Starten mit** aus.
+1. Wählen Sie die Kachel **Mit Daten beginnen** unter **Apps erstellen**.
 
-    ![Screenshot von „Mit Excel starten“](../media/start-from-excel.png)
+    ![Screenshot von der Kachel „Mit Daten beginnen“.](../media/start-with-data.png)
 
-1. Wählen Sie **+ Neue Verbindung** aus.
+1. Wählen Sie die Kachel **Externe Daten verbinden** unter **Weitere Möglichkeiten, um loszulegen**.
 
-1. Wählen Sie **OneDrive for Business** und dann **Erstellen** aus, melden Sie sich mit Ihren Mandantenanmeldeinformationen an, und wählen Sie **Zugriff zulassen** aus.
+    ![Screenshot der Kachel „Externe Daten verbinden“.](../media/connect-external-data.png)
 
-1. Suchen Sie unter „Excel-Datei auswählen“ die Excel-Datei **CoffeeMachineData.xlsx**, und wählen Sie sie aus.
+1. Wählen Sie die Kachel **Mit Excel** unter **Datensatz zum Starten auswählen**.
 
-1. Wählen Sie unter „Tabelle auswählen“ den Eintrag **CoffeeMachines** aus.
+    ![Screenshot von „Mit Excel starten“.](../media/from-excel.png)
 
-1. Wählen Sie **Verbinden** aus.
+1. Nach einer kurzen Wartezeit wird automatisch eine Verbindung zu **Excel Online (Business)** hergestellt.
+
+1. Erweitern Sie unter **Tabelle auswählen** den Eintrag **OneDrive for Business**.
+
+1. Erweitern Sie **OneDrive**.
+
+1. Erweitern Sie die **CoffeeMachineData.xlsx**-Excel-Datei.
+
+1. Wählen Sie die Tabelle **CoffeeMachines** aus.
+
+    ![Screenshot der Identitätsspalte der CoffeeMachines-Tabelle.](../media/coffeemachines-table.png)
+
+1. Wählen Sie **App erstellen** aus.
 
 1. Wenn das Popupdialogfeld **Willkommen bei Power Apps Studio** angezeigt wird, wählen Sie **Nicht mehr anzeigen** und dann **Überspringen** aus.
 
 1. Warten Sie, bis die App erstellt wurde.
 
-    ![Screenshot des Bildschirms „Durchsuchen“ in einer App mit drei Bildschirmen](../media/three-screen-app-browse-screen.png)
+    ![Screenshot des Hauptbildschirms der Coffee Machines-App.](../media/coffee-machines-app.png)
 
 1. Wählen Sie **Speichern** oben rechts in Power Apps Studio aus, geben Sie `Coffee Machines App` ein, und wählen Sie erneut **Speichern** aus.
 
-
 ### Aufgabe 2.2: Testen der App
 
-1. Wählen Sie oben rechts in Power Apps Studio das Symbol **App-Vorschau** aus.
+1. Wählen Sie das Symbol **App in der Vorschau anzeigen (F5)** oben rechts in Power Apps Studio.
 
-1. Wählen Sie eine beliebige Maschine im Katalog aus. Dadurch gelangen Sie zum Detailbildschirm.
+1. Wählen Sie eine beliebige Maschine im Katalog aus. Dadurch werden Details des Computers im Formular angezeigt.
 
-1. Wählen Sie oben rechts in der App das Symbol **Bearbeiten** aus. Dadurch wird der Bildschirm „Bearbeiten“ geöffnet.
+1. Wählen Sie oben rechts in der App das Symbol **Bearbeiten** aus.
 
-1. Ändern Sie den **Maschinenpreis**, und wählen Sie oben rechts in der App das Symbol **Element übermitteln** aus.
+1. Ändern Sie den **Maschinenpreis** wählen Sie das **Häkchensymbol** oben rechts in der App.
 
-1. Wählen Sie oben links in der App das Symbol **<** aus.
+1. Wählen Sie das Symbol **+ Neu** oben links in der App aus.
 
-1. Wählen Sie oben rechts in der App das Symbol **+** aus.
-
-1. Geben Sie `97` als **Maschinen-ID** ein.
+1. Geben Sie `abcde` als Maschinen-ID ein.
 
 1. Geben Sie `Demo Machine` als **Maschinenname** ein.
 
 1. Geben Sie `999` als **Maschinenpreis** ein.
 
-1. Wählen Sie oben rechts in der App das Symbol **Element übermitteln** aus.
-
-1. Geben Sie `Demo` unter **Elemente durchsuchen** ein.
+1. Wählen Sie das **Häkchensymbol** oben rechts in der App.
 
 1. Wählen Sie das **X** in der oberen rechten Ecke aus, um die Vorschau zu beenden.
 
 1. Wenn das Popupdialogfeld **Schon gewusst...?** angezeigt wird, wählen Sie **Nicht mehr anzeigen** und dann **OK** aus.
 
 1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.
-
 
 ## Übung 3: Erstellen einer Canvas-App mit Copilot
 
@@ -124,33 +129,41 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer vorhandenen 
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
-1. Wählen Sie im linken Navigationsmenü die Registerkarte **Start** aus. 
+1. Wählen Sie im linken Menü die Registerkarte **+ Erstellen** aus.
 
-   > Wenn die Umschaltoption **Neue Power Apps-Erfahrung ausprobieren** aktiviert ist, deaktivieren Sie sie bitte, damit dieses Lab ordnungsgemäß funktioniert.
-   > Wir werden bald neue Labs mit der aktualisierten Erfahrung starten.
+1. Wählen Sie die Kachel **Mit Copilot beginnen** unter **Apps erstellen**.
 
-1. Geben Sie unter **App erstellen – Was soll sie können?** den Text `Assign coffee repairs to technicians per customer request` ein, und wählen Sie zum Übermitteln das Pfeilsymbol **Los** aus.
+1. Geben Sie unter **Mit Copilot beginnen** `Assign coffee repairs to technicians per customer request` ein.
 
     ![Screenshot des Copilot-Prompts](../media/copilot-prompt.png)
 
+1. Wählen Sie das Symbol **Tabellenoptionen** und wählen Sie **Eine Tabelle**.
+
+    ![Screenshot der Copilot-Tabellenoptionen.](../media/copilot-table-options.png)
+
+1. Wählen Sie **Generieren** aus.
+
     Copilot beginnt mit der Erstellung einer Tabellenstruktur zur Unterstützung Ihrer Anwendung.
 
-    > **WICHTIG:** Wenn Sie generative KI verwenden, erhalten Sie nicht immer dieselben genauen Ergebnisse. Es ist möglich, dass Ihre Tabelle nicht genau mit der Tabelle übereinstimmt, die für einen anderen Kursteilnehmer erstellt wurde. 
+    > **WICHTIG:** Wenn Sie generative KI verwenden, erhalten Sie nicht immer dieselben genauen Ergebnisse. Es ist möglich, dass Ihre Tabelle nicht genau mit der Tabelle übereinstimmt, die für einen anderen Kursteilnehmer erstellt wurde.
 
-    > Um die Tabellenstruktur zu sehen, wählen Sie die Tabelle aus und klicken Sie auf die Schaltfläche **Daten anzeigen**. 
+1. Wählen Sie die **Befehle (...)** neben der Tabelle und wählen Sie **Daten anzeigen** aus.
+
+    ![Screenshot der Copilot-Tabelle](../media/copilot-table-view-data.png)
+
 1. Überprüfen der Tabelle
 
     ![Screenshot der Copilot-Tabelle](../media/copilot-table.png)
 
-1. Wenn Sie mit Ihrer Tabelle zufrieden sind, wählen Sie die Schaltfläche **Speichern und App öffnen**. 
+1. Wenn Sie mit Ihrer Tabelle zufrieden sind, wählen Sie die Schaltfläche **Speichern und App öffnen**.
 
-1. Falls erforderlich, wählen Sie auf dem Bildschirm **Arbeit abgeschlossen?** die Option **Nicht mehr nachfragen** aus und wählen Sie die Schaltfläche **App speichern und öffnen** aus. 
+1. Falls erforderlich, wählen Sie auf dem Bildschirm **Arbeit abgeschlossen?** die Option **Nicht mehr nachfragen** aus und wählen Sie die Schaltfläche **App speichern und öffnen** aus.
 
 1. Warten Sie, bis die App erstellt wurde.
 
     ![Screenshot der App von Copilot](../media/copilot-app.png)
 
-1. Wählen Sie oben rechts in Power Apps Studio die Option **Speichern** aus.
+1. Wählen Sie **Speichern** oben rechts in Power Apps Studio aus, geben Sie `Coffee Machine Repairs App` ein, und wählen Sie erneut **Speichern** aus.
 
 1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.
 

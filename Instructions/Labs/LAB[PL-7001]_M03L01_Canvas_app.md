@@ -36,24 +36,13 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
 1. Wählen Sie im linken Navigationsmenü die Registerkarte **+ Erstellen** aus.
 
-1. Wählen Sie die Kachel **Leere App** unter **Beginnen ab** aus.
+1. Wählen Sie die Kachel **Mit leerem Canvas beginnen** unter **Apps erstellen**.
 
-1. Wählen Sie **Erstellen** unter der Kachel **Leere Canvas-App** aus.
-
-    ![Screenshot: Erstellen aus einer leeren App.](../media/create-from-blank.png)
-
-1. Geben Sie `Booking Request app` als **App-Name** ein.
-
-1. Wählen Sie **Tablet** als **Format** aus.
-
-    ![Screenshot: neuer App-Name.](../media/app-name-format.png)
-
-1. Klicken Sie auf **Erstellen**.
+1. Wählen Sie **Tabletgröße**.
 
 1. Warten Sie, bis die App erstellt wurde.
 
-1. Wählen Sie oben rechts in Power Apps Studio **Speichern** aus.
-
+1. Wählen Sie **Speichern** oben rechts in Power Apps Studio aus, geben Sie `Booking Request app` ein, und wählen Sie erneut **Speichern** aus.
 
 ### Aufgabe 1.2 – Hinzufügen einer Datenquelle
 
@@ -66,7 +55,6 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
     ![Screenshot: Auswahl von Datenquelle.](../media/studio-data-search.png)
 
 1. Wählen Sie die Microsoft Dataverse-Tabelle **Buchungsanfragen** aus.
-
 
 ### Aufgabe 1.3 – Konfigurieren des Hauptbildschirms
 
@@ -118,7 +106,6 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
 1. Wählen Sie oben rechts in Power Apps Studio **Speichern** aus.
 
-
 ### Aufgabe 1.4 – Hinzufügen eines Katalogs
 
 1. Wählen Sie im Menü für die App-Erstellung **Einfügen (+)** aus.
@@ -137,6 +124,8 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
 1. Wählen Sie **Kosten** für **Textkörper1** aus.
 
+   > **HINWEIS:** Die Feldnamen können als Schemanamen mit einem Präfix des Anzeigenamens angezeigt werden.
+
 1. Wählen Sie **Entscheidung** für **Untertitel2** aus.
 
 1. Wählen Sie **Name des Haustiers** für **Titel2** aus.
@@ -149,13 +138,14 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 
 1. Ändern Sie den Namen des Katalogs in `BookingRequestList`.
 
+1. Wenn ein Popupdialogfeld für Vorschläge angezeigt wird, wählen Sie  **Abbrechen** aus.
+
 1. Legen Sie die Eigenschaften des Katalogs in der Bearbeitungsleiste wie folgt fest:
 
    1. X = `0`
    1. Y = `80`
    1. Höhe = `575`
    1. Breite=`250`
-
 
 ### Aufgabe 1.5 – Formatieren des Währungsfelds
 
@@ -176,4 +166,3 @@ In diesem Lab entwerfen und erstellen Sie eine Canvas-App aus einer leeren App u
 1. Wählen Sie oben rechts in Power Apps Studio die Option **Speichern** aus.
 
 1. Wählen Sie oben links in der Befehlsleiste die Schaltfläche **<- Zurück** und dann **Verlassen** aus, um die App zu beenden.
-

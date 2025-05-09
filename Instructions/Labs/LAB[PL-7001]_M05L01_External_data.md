@@ -49,14 +49,13 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Wenn das Popupdialogfeld **Mit dem Entwerfen Ihrer Website beginnen** angezeigt wird, schließen Sie das Dialogfeld.
 
-
 ### Aufgabe 1.2 Erstellen einer SharePoint-Liste
 
 1. Wählen Sie auf der SharePoint-Website **+ Neu** und dann **Liste** aus.
 
     ![Screenshot der neuen SharePoint-Liste.](../media/new-sharepoint-list.png)
 
-1. Wählen Sie **Leere Liste** aus.
+1. Wählen Sie unter **Aus leerem Dokument erstellen** die Option **Liste**.
 
 1. Geben Sie `Bookings` als **Name** ein, und wählen Sie **Erstellen** aus.
 
@@ -98,7 +97,6 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 
 1. Kopieren Sie den ersten Teil der URL der SharePoint-Website, z. B. `https://m365x99999999.sharepoint.com/sites/Petboarding/`.
 
-
 ## Übung 2: Hinzufügen einer SharePoint-Liste zur Canvas-App
 
 ### Aufgabe 2.1: Bearbeiten der App
@@ -110,7 +108,6 @@ In diesem Lab fügen Sie eine externe Datenquelle hinzu.
 1. Wählen Sie im linken Navigationsmenü die Registerkarte **Apps** aus.
 
 1. Wählen Sie die **Buchungsanfrage-App**, die Befehle (**...**) und dann **Bearbeiten > Auf neuer Registerkarte bearbeiten** aus.
-
 
 ### Aufgabe 2.2: Hinzufügen von SharePoint als Datenquelle
 

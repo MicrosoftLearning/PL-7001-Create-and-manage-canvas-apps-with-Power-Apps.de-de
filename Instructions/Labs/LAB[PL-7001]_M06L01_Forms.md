@@ -45,12 +45,11 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Wählen Sie die **Buchungsanfrage-App**, die Befehle (**...**) und dann **Bearbeiten > Auf der neuen Registerkarte bearbeiten** aus.
 
-
 ### Aufgabe 1.2: Hinzufügen von Bildschirmen
 
 1. Wählen Sie im Menü für die App-Erstellung **Strukturansicht** aus.
 
-1. Wählen Sie auf der Aktionsleiste in Power Apps Studio **Neuer Bildschirm** aus.
+1. Wählen Sie oben in der Baumansicht die Option **+ Neuer Bildschirm**.
 
     ![Screenshot des neuen Bildschirms](../media/add-screen.png)
 
@@ -58,12 +57,11 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Ändern Sie den Bildschirmnamen in `EditScreen`.
 
-1. Wählen Sie auf der Aktionsleiste in Power Apps Studio **Neuer Bildschirm** aus.
+1. Wählen Sie oben in der Baumansicht die Option **+ Neuer Bildschirm**.
 
 1. Wählen Sie **Kopf- und Fußzeile** aus.
 
 1. Ändern Sie den Bildschirmnamen in `DetailScreen`.
-
 
 ### Aufgabe 1.3: Hinzufügen der Navigation
 
@@ -91,14 +89,17 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
     Back()
     ```
 
+1. Benennen Sie das Symbol in `BackIconEdit` um.
+
 1. Wählen Sie in der **Strukturansicht** das Symbol aus, und wählen Sie die Befehle (**...**) und anschließend **Kopieren** aus.
 
 1. Erweitern Sie **DetailScreen**.
 
 1. Erweitern Sie **ScreenContainer**.
 
-1. Wählen Sie **HeaderContainer** aus und anschließend die Befehle (**...**) aus, und wählen Sie **Einfügen** aus.
+1. Wählen Sie **HeaderContainer**, dann die Befehle (**...**) sowie die Option **Einfügen** aus und danach wählen Sie erneut **Einfügen**.
 
+1. Benennen Sie das Symbol in `BackIconDetail` um.
 
 ## Übung 2: Bildschirm „Details“
 
@@ -122,7 +123,7 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Wählen Sie in den Eigenschaften von FormViewer **Buchungsanfragen** für **Datenquelle** aus.
 
-1. Wählen Sie **8 ausgewählt** neben **Felder** aus.
+1. Wählen Sie **10 ausgewählt** neben **Felder** aus.
 
     ![Screenshot der Standardformularfelder](../media/add-fields-default.png)
 
@@ -212,7 +213,7 @@ In dieser Übung verwenden Sie Formulare zum Erstellen und Bearbeiten von Datens
 
 1. Wählen Sie in den Eigenschaften des Formulars **Buchungsanfragen** für **Datenquelle** aus.
 
-1. Wählen Sie **8 ausgewählt** neben **Felder** aus.
+1. Wählen Sie **9 ausgewählt** neben **Felder** aus.
 
 1. Fügen Sie die Felder hinzu oder entfernen Sie sie, sodass sie in der folgenden Reihenfolge angeordnet sind:
 
